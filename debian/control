@@ -1,0 +1,20 @@
+Source: soapui
+Section: devel
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends: debhelper (>= 9), git, maven, maven-debian-helper, libmaven-enforcer-plugin-java, libanimal-sniffer-java
+Standards-Version: 3.9.5
+Homepage: https://www.soapui.org/open-source.html
+Vcs-Git: https://github.com/SmartBear/soapui.git
+Vcs-Browser: https://github.com/SmartBear/soapui
+
+Package: soapui
+Architecture: all
+Depends: ${misc:Depends}, Depends: default-jre | java8-runtime | java9-runtime, desktop-file-utils, hicolor-icon-theme
+Description: The world's leading testing tool for API testing
+ With its easy-to-use graphical interface, and enterprise-class features, SoapUI
+ allows you to easily and rapidly create and execute automated functional, 
+ regression, and load tests. In a single test environment, SoapUI provides 
+ complete test coverage - from SOAP and REST-based Web services, to JMS 
+ enterprise messaging layers, databases, Rich Internet Applications, and much 
+ more.

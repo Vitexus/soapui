@@ -1,0 +1,11 @@
+soapui (5.6.1) UNRELEASED; urgency=medium
+
+  * Try to build
+
+ -- Vítězslav Dvořák <vitex@develoid.jinonice.czf>  Tue, 16 Apr 2019 10:14:07 +0200
+
+soapui (5.6.0) experimental;
+
+  * Initial release.
+
+ -- Vítězslav Dvořák <vitex@develoid.jinonice.czf>  Tue, 16 Apr 2019 10:11:40 +0200
